@@ -10,5 +10,6 @@ public class App
     {
         System.out.println( "Server" );
         System.out.println( "Hellao_Woffrld!" );
+        System.out.println( "Server" );
     }
 }
