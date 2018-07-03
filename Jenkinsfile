@@ -11,7 +11,7 @@ node {
   stage('Fetch') {
     checkout scm
   }
-  stage('Env') {
+  stage('En') {
     sh 'env'
   }
    stage('Build') {
