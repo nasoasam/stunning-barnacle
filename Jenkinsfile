@@ -11,6 +11,9 @@ node {
   stage('Fetch') {
     checkout scm
   }
+  stage('Envi') {
+    sh 'env'
+  }
    stage('Build') {
       // Run the maven build
       //if (isUnix()) {
