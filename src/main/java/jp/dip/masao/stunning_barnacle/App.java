@@ -1,7 +1,7 @@
 package jp.dip.masao.stunning_barnacle;
 
 /**
- * Hello world!
+ * Hello server world!!
  *
  */
 public class App
