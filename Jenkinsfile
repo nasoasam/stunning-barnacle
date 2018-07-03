@@ -8,6 +8,12 @@ node {
       // **       in the global configuration.
       mvnHome = tool 'Maven_3.5.4'
    }
+  stage('Fetch') {
+    checkout scm
+  }
+  stage('Env') {
+    sh 'env'
+  }
    stage('Build') {
       // Run the maven build
       //if (isUnix()) {
